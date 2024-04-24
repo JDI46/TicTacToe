@@ -13,8 +13,9 @@ def board_display(board):
 
 
 # board display
-mark = 'x'
-board_vertical_lines_1 = print(f'   {mark} | {mark} | {mark}\n  -----------\n   {mark} | {mark} | {mark}\n  -----------\n   {mark} | {mark} | {mark}\n')
+mark_o = 'o'
+mark_x = 'x'
+board_vertical_lines_1 = print(f'   {mark_x} | {mark_x} | {mark_x}\n  -----------\n   {mark_x} | {mark_x} | {mark_x}\n  -----------\n   {mark_x} | {mark_x} | {mark_x}\n')
 board_display(board_vertical_lines_1)
 
 
